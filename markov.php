@@ -8,7 +8,7 @@ if(!is_object($sJ) || !isset($sJ->message->chat->id)) die("err");
 
 $filterRegEx = [
 	"urlFilter" 			=> "@(https?://([-\w\.]+[-\w])+(:\d+)?(/([\w/_\.#-]*(\?\S+)?[^\.\s])?)?)@",
-	"punctiationFilter" 	=> "/(?<!\w)[.,!]/",
+	"punctiationFilter"		=> "/(?<!\w)[.,!]/",
 	"newlineFilter"			=> "/\r|\n/"
 ];
 
